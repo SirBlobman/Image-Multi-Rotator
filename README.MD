@@ -24,5 +24,6 @@ Example:
 java -Xmx4G -jar "ImageMultiRotator-1.0.jar" "tnt.png" "tnt-rotated.png" 90.0
 ```
 
-The above example will take the file "tnt.png" and crate a "tnt-rotate.png" file with 4 rotations. 
+The above example will take the file "tnt.png" and create a "tnt-rotate.png" file with 4 rotations.
+
 This will also create a "tnt-rotate.png.mcmeta" file so you can use it in a mod/texture pack
