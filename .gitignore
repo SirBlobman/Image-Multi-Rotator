@@ -1,0 +1,13 @@
+# Java
+*.class
+*.jar
+
+# Eclipse
+bin/
+.settings/
+.classpath
+.project
+
+# Maven
+target/
+dependency-reduced-pom.xml

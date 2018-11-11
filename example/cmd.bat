@@ -1,0 +1,1 @@
+java -Xmx4G -jar "ImageMulti-Rotate-1.0.jar" "input.png" "output.png" 1.0
