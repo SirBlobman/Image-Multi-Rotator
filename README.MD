@@ -1,29 +1,41 @@
 # Image Multi-Rotator
+Image Multi-Rotator is a utility application that helps with creating rotation animations.
 
-This is a utility program to create mods
-
-It takes a png file and rotates it as many times as you need
-
-I used this with my gemmary mod to create the HD atom textures
+I used this with in my Gemmary mod to create the rotating atom textures.
 
 ## Requirements
-- 4GB of RAM
+- Java 17
 - A way to execute JAR files (terminal/CMD)
-- An image that has the same width and height (Example: 512x512)
+- An image that has the same width and height (Examples: 16x16, 32x32, 512x512)
 
-### Example Usage
-Format:
-
+### Usage Format:
 ```cmd
-java -Xmx4G -jar "ImageMultiRotator-{version}.jar" "<input file>" "<output file name>" <degrees per rotation>
+java -jar "Image-Multi-Rotator.jar" "<input file>" "<output file name>" <degrees per rotation>
 ```
 
-Example:
-
+### Example Input / Ouput
+## Command
 ```cmd
-java -Xmx4G -jar "ImageMultiRotator-1.0.jar" "tnt.png" "tnt-rotated.png" 90.0
+java -jar "Image-Multi-Rotator-2.0.0-SNAPSHOT.jar Apple.png Apple-animated.png 10
 ```
 
-The above example will take the file "tnt.png" and create a "tnt-rotate.png" file with 4 rotations.
+## Input
+![Apple Before](/example/Apple.png?raw=true "Apple Before")
 
-This will also create a "tnt-rotate.png.mcmeta" file so you can use it in a mod/texture pack
+`Apple.png`
+
+## Output
+![Apple After](/example/Apple-animated.png?raw=true "Apple After")
+
+`Apple-animated.png`
+
+## Output Meta
+```json
+{
+  "animation": {
+    "frametime": 1
+  }
+}
+```
+
+`Apple-animated.png.mcmeta`
