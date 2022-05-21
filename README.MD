@@ -14,22 +14,22 @@ java -jar "Image-Multi-Rotator.jar" "<input file>" "<output file name>" <degrees
 ```
 
 ### Example Input / Ouput
-## Command
+#### Command
 ```cmd
 java -jar "Image-Multi-Rotator-2.0.0-SNAPSHOT.jar Apple.png Apple-animated.png 10
 ```
 
-## Input
+#### Input
 ![Apple Before](/example/Apple.png?raw=true "Apple Before")
 
 `Apple.png`
 
-## Output
+#### Output
 ![Apple After](/example/Apple-animated.png?raw=true "Apple After")
 
 `Apple-animated.png`
 
-## Output Meta
+#### Output Meta
 ```json
 {
   "animation": {
